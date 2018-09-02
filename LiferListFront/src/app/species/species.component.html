@@ -1,3 +1,23 @@
-<p>
+<!-- <p>
   species works!
 </p>
+<p>{{speciesMaster}}</p> -->
+
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Species Name</th>
+      <th scope="col">Scientific Name</th>
+      <th scope="col">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of speciesMaster; let i = index">
+      <td>{{i+1}}</td>
+      <td>{{item.name}}</td>
+      <td>{{item.scientificName}}</td>
+      <td>{{item.status}}</td>
+    </tr>
+  </tbody>
+</table>

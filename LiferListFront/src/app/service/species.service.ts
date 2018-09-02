@@ -2,14 +2,15 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { HttpHeaders } from '@angular/common/http';
 
-interface mySpeciesData {
+
+interface speciesData {
   obj : Object
 }
 
 @Injectable({
   providedIn: 'root'
 })
-export class MySpeciesService {
+export class SpeciesService {
   httpOptions = {
     headers: new HttpHeaders({
       'Content-Type':  'application/json'
@@ -18,7 +19,7 @@ export class MySpeciesService {
 
   constructor(private http: HttpClient) { }
 
-  getMySpeciesData(){
-    return this.http.get<mySpeciesData>('http://localhost:3000/api/getAllLifers', this.httpOptions);
+  getAllSpeciesData(){
+    return this.http.get<speciesData>('http://localhost:3000/api/species', this.httpOptions);
   }
 }

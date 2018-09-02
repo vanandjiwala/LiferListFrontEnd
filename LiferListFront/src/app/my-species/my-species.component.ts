@@ -1,4 +1,4 @@
-import { MySpeciesService } from './../service/my-species-service.service';
+import { MySpeciesService } from '../service/my-species-service.service';
 import { Component, OnInit } from '@angular/core';
 
 
