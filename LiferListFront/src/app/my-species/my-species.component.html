@@ -1,4 +1,19 @@
-<p>
-  my-species works!
-</p>
-<p>{{message}}</p>
+
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Species Name</th>
+      <th scope="col">Species Scientific Name</th>
+      <th scope="col">Place</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of message; let i = index">
+      <td>{{i+1}}</td>
+      <td>{{item.speciesId.name}}</td>
+      <td>{{item.speciesId.scientificName}}</td>
+      <td>{{item.Place}}</td>
+    </tr>
+  </tbody>
+</table>

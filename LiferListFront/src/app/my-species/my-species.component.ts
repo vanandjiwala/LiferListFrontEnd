@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MySpeciesComponent implements OnInit {
 
-  message:Object = 'Loading..';
+  message:Object;
 
   constructor(private mySpeciesList: MySpeciesService) { }
 
