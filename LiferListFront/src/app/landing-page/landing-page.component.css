@@ -1,0 +1,28 @@
+.container-fluid{
+    min-height:100vh;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.container-fluid h1{
+    color: #324359;
+}
+
+.card { background-color: rgba(245, 245, 245, 0.4); }
+.card-header, .card-footer { opacity: 0.4}
+
+.bg-1 { 
+    /* background-color: #1abc9c; 
+    color: #ffffff;  */
+
+        /* The image used */
+        background-image: url("../../assets/frank-mckenna-127338-unsplash.jpg");
+
+        /* Full height */
+        height: 100%; 
+    
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
