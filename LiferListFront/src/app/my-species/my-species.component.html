@@ -1,21 +1,32 @@
-<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#bootstrapModel"> click to open</button>
-Now converting it  to angular, By clicking the button open the modal using event binding method as the  following
-<button type="button" class="btn btn-info btn-lg" (click)='openModal()'>click to open</button> -->
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">ID</th>
-      <th scope="col">Species Name</th>
-      <th scope="col">Species Scientific Name</th>
-      <th scope="col">Place</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let item of message; let i = index">
-      <td>{{i+1}}</td>
-      <td>{{item.speciesId.name}}</td>
-      <td>{{item.speciesId.scientificName}}</td>
-      <td>{{item.Place}}</td>
-    </tr>
-  </tbody>
-</table>
+<div class="mySpecies">
+    <div class="container-fluid">
+        <div class="row optionsRow">
+          <div class="col-sm-3">
+              
+          </div>
+          <div class="col-sm-6">
+              <button type="button" class="btn btn-primary">Add a lifer <i class="fas fa-dove"></i></button>
+          </div>
+          <div class="col-sm-3">
+          </div>
+        </div>
+      </div>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Species Name</th>
+          <th scope="col">Species Scientific Name</th>
+          <th scope="col">Place</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of message; let i = index">
+          <td>{{i+1}}</td>
+          <td>{{item.speciesId.name}}</td>
+          <td>{{item.speciesId.scientificName}}</td>
+          <td>{{item.Place}}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>

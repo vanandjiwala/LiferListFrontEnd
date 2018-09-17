@@ -24,12 +24,14 @@
             ],
             "styles": [
               "src/styles.css",
-              "../LiferListFront/node_modules/bootstrap/dist/css/bootstrap.css"
+              "../LiferListFront/node_modules/bootstrap/dist/css/bootstrap.css",
+              "../LiferListFront/node_modules/@fortawesome/fontawesome-free/css/all.css"
             ],
             "scripts": [
               "../LiferListFront/node_modules/jquery/dist/jquery.min.js",
               "../LiferListFront/node_modules/popper.js/dist/popper.min.js",
-              "../LiferListFront/node_modules/bootstrap/dist/js/bootstrap.js"
+              "../LiferListFront/node_modules/bootstrap/dist/js/bootstrap.js",
+              "../LiferListFront/node_modules/@fortawesome/fontawesome-free/js/all.js"
             ]
           },
           "configurations": {
@@ -82,7 +84,8 @@
             "scripts": [],
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "../LiferListFront/node_modules/font-awesome/fonts"
             ]
           }
         },

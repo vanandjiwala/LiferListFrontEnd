@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'LiferListFront';
   activeComponent;
+  $: any;
 
   selectHome(id: number){
     this.activeComponent = id;

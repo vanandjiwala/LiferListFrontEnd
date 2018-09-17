@@ -1,7 +1,16 @@
+body, html, .container-fluid {
+    height: 100%;
+    background-color: gray;
+}
+
 .navbar-custom{
     background-color: #324359;
 }
 
 .navbar-custom a{
     color: #F2F2F0;
+}
+
+.active a{
+    color: red;
 }

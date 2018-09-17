@@ -2,6 +2,8 @@ import { MySpeciesService } from '../service/my-species-service.service';
 import { Component, OnInit } from '@angular/core';
 
 
+
+
 @Component({
   selector: 'app-my-species',
   templateUrl: './my-species.component.html',

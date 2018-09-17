@@ -1,0 +1,50 @@
+.mySpecies{
+    background-color: #FFD38E; 
+    min-height: 100vh;
+    height: 100%;
+}
+
+.fill { 
+
+}
+
+.container-fluid {
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+.optionsRow{
+    height:100%;
+    overflow: hidden;
+    /* background-color: #FFD38E !important;  */
+}
+
+.btn{
+    width: 100%;
+}
+
+/*
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8064A2 !important;
+}
+*/
+
+.btn-primary{
+    height: 100%;
+    background-color: #889BB2 !important; 
+}
+
+
+
+.table th{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.table td{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
