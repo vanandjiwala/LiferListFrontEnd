@@ -29,7 +29,7 @@
             ],
             "scripts": [
               "../LiferListFront/node_modules/jquery/dist/jquery.min.js",
-              "../LiferListFront/node_modules/popper.js/dist/popper.min.js",
+              "../LiferListFront/node_modules/popper.js/dist/popper.js",
               "../LiferListFront/node_modules/bootstrap/dist/js/bootstrap.js",
               "../LiferListFront/node_modules/@fortawesome/fontawesome-free/js/all.js"
             ]

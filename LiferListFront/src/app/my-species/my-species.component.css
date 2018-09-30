@@ -1,11 +1,7 @@
 .mySpecies{
-    background-color: #FFD38E; 
+    background-color: #1C66A6; 
     min-height: 100vh;
     height: 100%;
-}
-
-.fill { 
-
 }
 
 .container-fluid {
@@ -24,6 +20,7 @@
 
 .btn{
     width: 100%;
+    background-color: #F2B5A7;
 }
 
 /*
@@ -40,11 +37,12 @@
 
 
 .table th{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: none;
+    border-bottom: 1px solid #5EADBF;
 }
 
 .table td{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    /* border-top: 1px solid black; */
+    border-bottom: 1px solid #5EADBF; 
+    color: #F2D8C2;
 }
